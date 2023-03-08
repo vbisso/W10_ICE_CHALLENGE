@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-top: 50px;
+}
+form{
+    margin-top: 60px;
+}
+#name{
+    width: 250px;
+    height: 28px;
+    padding: 5px;
+    padding-left: 20px;
+    border:  #f3f3f3;;
+    border-radius: 0.5em;
+    background-color: #f3f3f3;
+    font-size: 14px;
+}
+#mail{
+    margin-top: 8px;
+    width: 250px;
+    height: 28px;
+    padding: 5px;
+    padding-left: 20px;
+    border: #f3f3f3;;
+    border-radius: 0.5em;
+    background-color: #f3f3f3;
+    font-size: 14px;
+}
+#button{
+    margin-top: 20px;
+    width: 275px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    border: #2e5590;
+    border-radius: 0.5em;
+    background-color: #2e5590;
+    color:rgb(241, 242, 242,0.6);
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+.p_bold{
+    margin-top: -15px;
+    color: #545454;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+h2{
+    margin-bottom: 50px;
+    color: #2e5590;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    font-weight: 100;
+}
+p{
+    font-family: sans-serif;
+    color:#545454;
+    line-height: 1.3em;
+}
